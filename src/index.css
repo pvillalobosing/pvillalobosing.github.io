@@ -4,16 +4,3 @@ body {
   color: #E8EFEC;
   font-family: system-ui, sans-serif;
 }
-
-.hero {
-  padding: 2rem;
-}
-
-.label {
-  color: #3DDC84;
-  font-size: 1.5rem;
-}
-
-h1 {
-  font-size: 4rem;
-}

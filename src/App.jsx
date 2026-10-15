@@ -3,9 +3,9 @@ import './App.css';
 function App() {
   return (
     <main className="hero">
-      <p className="label">EMBEDDED SYSTEM ENGINEER</p>
+      <p className="label">EMBEDDED SYSTEMS ENGINEER</p>
       <h1>Pedro Villalobos</h1>
-      <p>design electronics that work in the field</p>
+      <p>I design electronics that work in the field.</p>
     </main>
   )
 }
