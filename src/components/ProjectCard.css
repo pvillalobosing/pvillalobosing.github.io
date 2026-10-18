@@ -1,6 +1,8 @@
 .card{
+    padding: 1.5rem;
     background-color: #121816;
     border: 1px solid #1F2B27;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -22,9 +24,11 @@
 
 .card-tags{
     display: flex;
+    flex-wrap: wrap;
     gap: 0.5rem;
     list-style: none;
     margin: 0;
+    margin-top: auto;
     padding: 0;
 }
 
@@ -34,4 +38,9 @@
     border: 1px solid #24463A;
     border-radius: 4px;
     padding: 0.25rem 0.5rem;
+}
+
+.nda{
+    color: #E8C27A;
+    font-size: 0.75rem;
 }
