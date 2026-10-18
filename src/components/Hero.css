@@ -2,12 +2,12 @@
   padding: 2rem;
 }
 
-.label {
+.hero .label {
   color: #3DDC84;
   font-size: 0.875rem;
   letter-spacing: 0.08em;
 }
 
-h1 {
+.hero h1 {
   font-size: 4rem;
 }

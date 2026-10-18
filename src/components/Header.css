@@ -1,6 +1,64 @@
-.header{
-    padding: 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 6rem;
+  border-bottom: 1px solid #1C2724;
+}
+
+/* Logo: el cuadro "PV" y el nombre, en fila */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo-mark {
+  width: 40px;
+  height: 40px;
+  display: flex;                 /* para centrar "PV" dentro del cuadro */
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #3DDC84;
+  border-radius: 8px;
+  color: #3DDC84;
+  font-weight: 600;
+}
+
+.logo-name {
+  font-weight: 600;
+}
+
+/* Nav: enlaces y botón en fila */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+/* La lista: horizontal, sin viñetas ni márgenes */
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: #C9D6D1;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #3DDC84;
+}
+
+.btn-cv {
+  background: #3DDC84;
+  color: #0A0E0D;
+  padding: 0.75rem 1.25rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
 }
