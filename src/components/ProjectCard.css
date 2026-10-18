@@ -1,0 +1,37 @@
+.card{
+    background-color: #121816;
+    border: 1px solid #1F2B27;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card h3{
+    margin: 0;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card p{
+    margin: 0;
+    color: #A9BBB4;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.card-tags{
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card-tags li{
+    color: #3DDC84;
+    font-size: 0.75rem;
+    border: 1px solid #24463A;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+}
